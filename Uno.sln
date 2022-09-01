@@ -1,0 +1,22 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Uno", "Uno\Uno.csproj", "{EC68F8BA-2F1F-4FBE-A324-7D147B4E3A2D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Uno.Discord", "Uno.Discord\Uno.Discord.csproj", "{4D53EB1F-535C-4430-91E0-BC0CA1F05117}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{EC68F8BA-2F1F-4FBE-A324-7D147B4E3A2D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EC68F8BA-2F1F-4FBE-A324-7D147B4E3A2D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EC68F8BA-2F1F-4FBE-A324-7D147B4E3A2D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EC68F8BA-2F1F-4FBE-A324-7D147B4E3A2D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4D53EB1F-535C-4430-91E0-BC0CA1F05117}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4D53EB1F-535C-4430-91E0-BC0CA1F05117}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4D53EB1F-535C-4430-91E0-BC0CA1F05117}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4D53EB1F-535C-4430-91E0-BC0CA1F05117}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal
