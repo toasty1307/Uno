@@ -7,8 +7,17 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <PackageReference Include="AutoConstructor" Version="3.2.3">
+      <PrivateAssets>all</PrivateAssets>
+      <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
+    </PackageReference>
     <PackageReference Include="Microsoft.Extensions.DependencyInjection" Version="7.0.0-preview.7.22375.6" />
-    <PackageReference Include="Remora.Discord" Version="2022.47.0" />
+    <PackageReference Include="Remora.Discord" Version="2022.48.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Remora.HelpSystem\Remora.HelpSystem.csproj" />
+    <ProjectReference Include="..\Uno.Data\Uno.Data.csproj" />
   </ItemGroup>
 
 </Project>

@@ -2,9 +2,14 @@ using FastEndpoints;
 using Serilog;
 using Serilog.Templates;
 using Serilog.Templates.Themes;
+using Uno.Data.Extensions;
 using Uno.Discord.Extensions;
 
+#pragma warning disable CA1852
+
 var builder = WebApplication.CreateBuilder(args);
+
+#pragma warning restore CA1852
 
 builder.Configuration
     .AddEnvironmentVariables()
@@ -49,6 +54,7 @@ builder.Host.UseSerilog((ctx, configuration) =>
         );
 });
 builder.Host.AddDiscordServices(builder.Configuration["Discord:Token"] ?? throw new InvalidOperationException("No token was found in the config"));
+builder.Services.AddDatabase();
 builder.Services.AddFastEndpoints();
 builder.Services.AddAuthentication();
 builder.Services.AddEndpointsApiExplorer();

@@ -5,7 +5,7 @@ namespace Uno.Endpoints;
 
 [HttpGet("/api/test")]
 [AllowAnonymous]
-public class TestEndpoint : EndpointWithoutRequest
+internal sealed class TestEndpoint : EndpointWithoutRequest
 {
     public override async Task HandleAsync(CancellationToken ct)
     {

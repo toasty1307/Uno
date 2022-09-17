@@ -1,0 +1,2 @@
+﻿[*.cs]
+dotnet_diagnostic.CA1852.severity = warning

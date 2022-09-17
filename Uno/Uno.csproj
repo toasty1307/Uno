@@ -19,6 +19,7 @@
   </ItemGroup>
 
   <ItemGroup>
+    <ProjectReference Include="..\Uno.Data\Uno.Data.csproj" />
     <ProjectReference Include="..\Uno.Discord\Uno.Discord.csproj" />
   </ItemGroup>
 

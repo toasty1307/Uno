@@ -4,6 +4,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Uno", "Uno\Uno.csproj", "{E
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Uno.Discord", "Uno.Discord\Uno.Discord.csproj", "{4D53EB1F-535C-4430-91E0-BC0CA1F05117}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Remora.HelpSystem", "Remora.HelpSystem\Remora.HelpSystem.csproj", "{185F9B66-D489-4345-974A-74B1C10A973D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Uno.Data", "Uno.Data\Uno.Data.csproj", "{FD9FBA45-74D7-497F-B6C5-A643CD972505}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -18,5 +22,13 @@ Global
 		{4D53EB1F-535C-4430-91E0-BC0CA1F05117}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{4D53EB1F-535C-4430-91E0-BC0CA1F05117}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{4D53EB1F-535C-4430-91E0-BC0CA1F05117}.Release|Any CPU.Build.0 = Release|Any CPU
+		{185F9B66-D489-4345-974A-74B1C10A973D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{185F9B66-D489-4345-974A-74B1C10A973D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{185F9B66-D489-4345-974A-74B1C10A973D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{185F9B66-D489-4345-974A-74B1C10A973D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FD9FBA45-74D7-497F-B6C5-A643CD972505}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FD9FBA45-74D7-497F-B6C5-A643CD972505}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FD9FBA45-74D7-497F-B6C5-A643CD972505}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FD9FBA45-74D7-497F-B6C5-A643CD972505}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal
